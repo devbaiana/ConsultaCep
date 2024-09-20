@@ -1,13 +1,13 @@
 //
-//  ContentView.swift
+//  inicio.view.swift
 //  ConsultaCEP
 //
 //  Created by nathalia karine on 18/09/2024.
 //
 
+import Foundation
 import SwiftUI
 
-struct ContentView: View {
     var body: some View {
         VStack {
             Image(systemName: "globe")
@@ -16,9 +16,5 @@ struct ContentView: View {
             Text("Hello, world!")
         }
         .padding()
-    }
-}
-
-#Preview {
-    ContentView()
+    
 }
